@@ -59,6 +59,10 @@ class Vehiculos extends Controller
         ) {
             $msg = array('msg' => 'Todo los campos son obligatorios', 'icono' => 'warning');
         } else {
+            //CREAR CARPETA
+            if (!file_exists('Assets/img/vehiculos')) {
+                mkdir('Assets/img/vehiculos');
+            }
             if (!empty($name)) {
                 $extension = pathinfo($name, PATHINFO_EXTENSION);
                 $formatos_permitidos =  array('png', 'jpeg', 'jpg');
