@@ -11,7 +11,7 @@ function modificarEmpresa(e) {
         alertify.error("Todo los campos son requeridos");
     } else {
         const frm = document.getElementById('formulario');
-        const url = base_url + 'dashboard/modificar';
+        const url = base_url + 'empresa/modificar';
         const http = new XMLHttpRequest();
         let frmData = new FormData(frm);
         http.open("POST", url, true);
