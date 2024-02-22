@@ -26,7 +26,7 @@
 <!-- endinject -->
 <!-- plugin js for this page -->
 <script src="<?php echo base_url; ?>Assets/vendors/progressbar.js/progressbar.min.js"></script>
-
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script src="<?php echo base_url; ?>Assets/js/jquery-3.6.0.min.js"></script>
 <script src="<?php echo base_url; ?>Assets/js/jquery-ui.min.js"></script>
 <script src="<?php echo base_url; ?>Assets/js/all.min.js"></script>
